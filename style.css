@@ -5,9 +5,31 @@
 }
 
 .header_function{
-    height: 70px;
-    /* position: static; */
-    background-color: red;
+padding: 15px;    /* position: static; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_dropbox{
+    width: 100px;
+}
+.function_text{
+    padding: 0 0.5rem;
+    color: #7B7B7B;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.start{
+    background-color:#0061FF ;
+    color: white;
+    border: 0;
+width: 50px;
+height: 20px;
+}
+
+
+.background_header{
+    background-color: #B4D0E7;
 }
 .header_information{
     margin: 0 auto;
@@ -15,7 +37,7 @@
     height: 450px;  
     background-color: blue;
 }
-main{
+.margin{
     width: 65%;
     margin: 0 auto;
 }
@@ -146,7 +168,7 @@ height: 300px;
 .questions{
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 50%;
     margin: 0 auto;
     margin-bottom: 50px;
 
@@ -158,3 +180,34 @@ height: 300px;
     border: 2px solid black;
 }
 
+footer{
+    background-color: aquamarine;
+}
+
+.info_box_footer{
+    width: 75%;
+    margin: 0 auto;
+ 
+}
+.row_footer{
+    display: flex;
+/* margin: 0 auto; */
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+.col_footer{
+    background-color: darkkhaki;
+    height: 200px;
+    width: calc(100% / 12 *2);
+margin: 10px;
+margin-top: 50px;
+}
+
+.language{
+width: 20px;
+height: 10px;
+background-color: black;
+margin-left: 38px;
+}
