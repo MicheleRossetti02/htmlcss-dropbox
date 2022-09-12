@@ -6,7 +6,7 @@
 
 .header_function{
     height: 70px;
-    position: static;
+    /* position: static; */
     background-color: red;
 }
 .header_information{
@@ -30,3 +30,131 @@ main{
     border-radius: 50% ;
     background-color: aqua;
 }
+
+.row_choise{
+    display: flex;
+    justify-content: space-between;
+}
+.choice {
+    width: calc(100% /12 * 3.5 );  
+      height: 500px;
+    margin:  30px 0;
+    background-color: blueviolet;
+
+}
+
+.contact{
+}
+.team{
+    height: 20px;
+    border: 2px solid black;
+
+
+}
+.contact_us{
+    border: 2px solid black;
+
+    height: 200px;
+ }
+.partner{
+    display: flex;
+    height: 400px;
+    margin: 30px 0;
+}
+
+
+.image_partner{
+    width: calc(100% / 5 *3);
+    background-color: brown;
+
+}
+.text_partner{
+    width: calc(100% / 5 *2);
+    background-color: rgb(150, 105, 105);
+
+}
+.operations{
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.row_operations{
+    width: 100%;
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin: 0px;
+justify-content: center;
+
+}
+.info_operation{
+    /* flex-direction: column  ; */
+    width: calc(100% /4 );
+    margin: 30px;
+}
+.info_image{
+
+    /* margin: 25px;    */
+    height: 100px;
+    background-color: chocolate;
+}
+.info_text{
+
+}
+
+.conteiner_loghi{
+    /* position: relative; */
+    /* height: 300px; */
+    /* width: 100vh; */
+    /* background-color: cornflowerblue; */
+}
+.row_loghi{
+    display: flex;
+}
+.col_loghi_1{
+    display: flex;
+    flex-wrap: wrap;
+width: calc(100% / 3);
+background-color: darkgreen;
+height: 300px;
+}
+.col_loghi_2{
+    width: calc(100% / 3);
+    background-color: gold;
+    height: 300px;
+}
+.col_loghi_3{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+    background-color: darkorange;
+    height: 300px;
+}
+.logo{
+    background-color: black;
+    width: calc(100% / 2);
+    height: 150px;
+    border: 2px solid white;
+
+
+}
+
+.free_trial{
+    height: 150px;
+    background-color: aqua;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+.question{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
