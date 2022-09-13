@@ -408,13 +408,18 @@ justify-content: space-around;
 }
 
 footer{
-    background-color: aquamarine;
+    background-color: black;
 }
 
 .info_box_footer{
     width: 75%;
     margin: 0 auto;
  
+}
+.info_footer{
+    text-decoration: none;
+    color: white;
+    margin: 5px 0;
 }
 .row_footer{
     display: flex;
@@ -425,16 +430,21 @@ justify-content: center;
 
 }
 .col_footer{
-    background-color: darkkhaki;
+color: white;
     height: 200px;
     width: calc(100% / 12 *2);
 margin: 10px;
 margin-top: 50px;
+display: flex;
+flex-direction: column;
 }
 
 .language{
-width: 20px;
-height: 10px;
-background-color: black;
-margin-left: 38px;
+    width: 40px;
+    height: 10px;
+    color: white;
+    font-size: 0.5rem;
+    display: flex;
+    margin-left: 37px;
+    border-top: 2px solid lightgray;
 }
