@@ -112,8 +112,6 @@ width: 450px;
 
 
 
-
-
 .row_choise{
     display: flex;
     justify-content: space-between;
@@ -244,6 +242,19 @@ justify-content: space-between;
 margin-bottom: 30px;
 }
 
+.users{
+    width: 60%;
+    margin-top: 100px;
+margin-bottom: 70px;
+}
+.title_2{
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+
+
+
 .conteiner_loghi{
     /* position: relative; */
     /* height: 300px; */
@@ -257,29 +268,94 @@ margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
 width: calc(100% / 3);
-background-color: darkgreen;
 height: 300px;
 }
 .col_loghi_2{
     width: calc(100% / 3);
-    background-color: gold;
+    /* background-color: gold; */
     height: 300px;
 }
 .col_loghi_3{
     display: flex;
     flex-wrap: wrap;
     width: calc(100% / 3);
-    background-color: darkorange;
+    /* background-color: darkorange; */
     height: 300px;
 }
 .logo{
-    background-color: black;
+    /* background-color: violet; */
     width: calc(100% / 2);
     height: 150px;
-    border: 2px solid white;
-
+    /* border: 2px solid white; */
+}
+.designit{
+    background-color: #A2D39B;
+    background-image: url(./dropbox_img/img/designit.svg);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 10px solid #D1E9CD;
 
 }
+.asu{
+    background-color: #61082B;
+    background-image: url(./dropbox_img/img/arizona_state_university.svg);
+    background-size: 120px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+.florida{
+    background-color: #0093CE;
+    background-image: url(./dropbox_img/img/university_of_florida.svg);
+    background-size: 120px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.topps{
+    background-color: #FF1C1C;
+    background-image: url(./dropbox_img/img/topps.svg);
+    background-size: 120px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wbr{
+    background-color: #D5001F;
+    background-image: url(./dropbox_img/img/world_bicycle_relief.svg);
+    background-size: 120px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hearst{
+    background-color: #B4D0E7;
+    background-image: url(./dropbox_img/img/hearst_corp.svg);
+    background-size: 120px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lonely_planet{
+    background-color: #0D2481;
+    background-image: url(./dropbox_img/img/lonely_planet.svg);
+    background-size: 120px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.clear_channel{
+    background-color: #FFD830;
+    background-image: url(./dropbox_img/img/clear_channel.svg);
+    background-size: 120px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 
 .free_trial{
     height: 150px;
