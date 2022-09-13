@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.blue{
+    color: blue;
+}
 
 .header_function{
     position: fixed;
@@ -46,7 +49,8 @@ h1{
     background-color:#0061FF ;
     color: white;
     border: 0;
-    margin: 20px 0;
+    margin-top: 35px ;
+    margin-bottom: 20px;
 padding: 0.5rem 1rem;
 }
 
@@ -116,7 +120,7 @@ width: 450px;
 }
 .choise {
     width: calc(100% /12 * 3.5 );  
-      height: 500px;
+      height: 850px;
     margin:  30px 0;
     border: 1px solid grey;
 
@@ -135,24 +139,48 @@ padding: 5px 0;
 }
 .price{
     font-size: 0.8rem;
-
+    display: block;
+    margin-bottom: 10px;
 }
 .role{
     padding: 20px 0;
 }
+.highlights{
+    margin-top: 80px;
+}
+h4{
+    margin-bottom: 25px;
+}
 
 .contact{
 }
+
+
 .team{
-    height: 20px;
-    border: 2px solid black;
-
-
+    display: flex;
+    justify-content: center;
+    /* height: 25px; */
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
 }
 .contact_us{
-    border: 2px solid black;
+    border: 1px solid grey;
 
-    height: 200px;
+    /* height: 200px; */
+ }
+ .info_team{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 20px;
+ }
+ .contact_button{
+    background-color: #0061FF;
+color: white;
+border: 0;
+/* margin-top: 35px; */
+/* margin-bottom: 20px; */
+padding: 0.5rem 2rem;
  }
 .partner{
     display: flex;
@@ -189,6 +217,16 @@ justify-content: center;
     width: calc(100% /4 );
     margin: 30px;
 }
+.info_function{
+    margin-top: 30px;
+
+   }
+   .solid{
+    height: 15px;
+}
+.space_between{
+    padding: 0.5rem 0;}
+
 .info_image{
 
     /* margin: 25px;    */
