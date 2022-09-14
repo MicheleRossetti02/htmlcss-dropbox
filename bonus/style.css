@@ -509,22 +509,16 @@ font-size: 1.2rem;
   ul li {display: inline-block;}
   ul li:hover ul {display: block;}
   ul li ul {
-    
     position: absolute;
     width: 100px;
     display: none;
   }
   ul li ul li { 
     background-color: white; 
-    color: gray;
     display: block; 
   }
   ul li ul li a {
     display:block !important;
-color: gray;
-font-size: 0.8rem;
-border-bottom: 2px solid grey;
-
 } 
   ul li ul li:hover {
     background-color: white;
